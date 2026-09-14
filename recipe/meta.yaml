@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "cocina" %}
-{% set version = "0.0.8" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cocina-{{ version }}.tar.gz
-  sha256: 3805476de180351fe26beb95061de218c2278e627d3007f6f39f3c2a02317302
+  sha256: 6860ed91bbede0523bee3a3b2ce09867708d0a12e4b98aeba73a4c9cb01dfc2e
 
 build:
   entry_points:
